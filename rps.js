@@ -52,7 +52,7 @@ const determineWinner = (userChoice, computerChoice) => {
 }
 
 const playGame = () => {
-		const userChoice = getUserChoice('paper');
+		const userChoice = getUserChoice(prompt());
   	const computerChoice = getComputerChoice();
   console.log('You threw: ' + userChoice);
   console.log('The computer threw: ' + computerChoice);
